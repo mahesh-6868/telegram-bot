@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 import os
 
-TOKEN = os.getenv("")
+TOKEN = "7760147090:AAHoPCvaBBraczMSX_tVmTnWc3I4OUa9uxM"
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Hello! Send me any message, and I'll reply!")
